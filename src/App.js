@@ -1,25 +1,7 @@
 import React, {useState, useEffect} from 'react';
-import { Route, NavLink, useLocation } from 'react-router-dom';
-import './index.css';
+import { Route, NavLink } from 'react-router-dom';
 
 function App(props) {
-  let location = useLocation();
-  // console.log(location);
-  // console.log(location.pathname);
-  // useEffect(() => {
-  //   if(location.pathname === '/'){
-  //     setHeaderText('Home');
-  //     console.log(headerText);
-  //   }
-  //   else if(location.pathname === '/Projects'){
-  //     setHeaderText('Projects');
-  //     console.log(headerText);
-  //   }
-  //   else if(location.pathname === '/Contact'){
-  //     setHeaderText('Contact');
-  //     console.log(headerText);
-  //   }
-  // }, [location.pathname])
   
   return (
     <div className="App">
